@@ -11,6 +11,9 @@
   position: relative;
 }
 
+.site-navigator {
+  position: relative
+
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 300;
