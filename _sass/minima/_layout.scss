@@ -9,14 +9,12 @@
 
   // Positioning context for the mobile navigation icon
   position: relative;
-  text-align: center;
   
 }
 
 .site-navigator {
   position: relative;
   float: left;
-  clear: both;
   }
 
 .site-title {
@@ -25,6 +23,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  text-align: center;
 
   @include media-query($on-palm) {
     padding-right: 45px;
