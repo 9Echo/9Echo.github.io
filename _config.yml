@@ -28,8 +28,7 @@ url: "https://qinshan.cc" # the base hostname & protocol for your site, e.g. htt
 github_username:  9Echo
 
 # Build settings
-# theme: minima
-theme: no style, please
+theme: minima
 plugins:
   - jekyll-feed
 
