@@ -4,11 +4,18 @@ title: "build my own blog"
 date: 2022-01-22
 ---
 
-- [ ] 添加blog（archive）、category、tag、tool、cv等其他页面
+- [x] 添加blog（archive）、category、tag、tool、cv等其他页面
 - [x] 修改post样式，各标题大小、前后间隔等
-- [ ] 重新设计html，是否需要添加分隔栏等
+- [x] 重新设计html，是否需要添加分隔栏等
 - [ ] 添加中文字体
 - [x] 添加网页图片
+- [ ] 设计主页面（index.html）
+- [ ] 设计四个分页面
+  - [ ] tags页面设计：显示所有的tag，以及每个tag下对应该tag的文章（按时间排序）
+  - [ ] categories页面设计：同tags页面，增加选择，选择不同的categories，显示所选的post，按时间排序
+  - [ ] archive页面：显示所有的post，按时间排序，最近的优先显示
+  - [ ] about页面设计：自我介绍
+
 
 # How
 
@@ -29,6 +36,10 @@ date: 2022-01-22
 - 添加目录页面
 
   > 具体参考[这里](https://blog.webjeda.com/jekyll-categories/)
+  
+- 添加tags页面
+
+  > 具体参考[该博客tags设置](https://github.com/Gabriel-Chen/Nice_Blog/blob/master/tags.html)
 
 1. layouts 修改
    - 去掉head、footer的border线条
