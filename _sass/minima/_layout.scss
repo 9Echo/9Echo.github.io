@@ -19,7 +19,11 @@
 .site-navigator {
   position: relative;
   float: left;
+  
+  .wrapper {
+    border-bottom: 1px solid $border-color-01;
   }
+}
 
 .site-title {
   // @include relative-font-size(1.625);
