@@ -26,7 +26,9 @@ date: 2022-01-22
 
   > 具体参考[这里](https://medium.com/@xiang_zhou/how-to-add-a-favicon-to-your-jekyll-site-2ac2179cc2ed)
 
+- 添加目录页面
 
+  > 具体参考[这里](https://blog.webjeda.com/jekyll-categories/)
 
 1. layouts 修改
    - 去掉head、footer的border线条
