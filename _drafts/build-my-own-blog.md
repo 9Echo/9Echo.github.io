@@ -22,6 +22,12 @@ date: 2022-01-22
 
 ### 我做了哪些修改？
 
+- 添加网站logo
+
+  > 具体参考[这里](https://medium.com/@xiang_zhou/how-to-add-a-favicon-to-your-jekyll-site-2ac2179cc2ed)
+
+
+
 1. layouts 修改
    - 去掉head、footer的border线条
    - site-header居中
