@@ -139,10 +139,11 @@ a {
  */
 blockquote {
   color: $brand-color;
-  border-left: 4px solid $border-color-01;
+  background: #f9f9f9;
+  border-left: 6px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-/*  font-style: italic;   */
+  font-style: italic; 
   font-family: "Times New Roman";
 
   > :last-child {
