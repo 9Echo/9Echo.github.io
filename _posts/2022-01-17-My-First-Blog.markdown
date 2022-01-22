@@ -5,8 +5,7 @@ date:   2021-01-17 15:54:00
 subtitle: "markdown for typora"
 author: typora
 tags: markdown typora notes
-categories: jekyll update
-finished: true
+categories: [Tech, Work]
 ---
 just a test!
 
