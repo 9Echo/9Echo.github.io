@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: $link-base-color;
-  text-decoration: underline;
+  text-decoration: none;
 
   &:visited {
     color: $link-visited-color;
@@ -142,7 +142,8 @@ blockquote {
   border-left: 4px solid $border-color-01;
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
-  font-style: italic;
+/*  font-style: italic;   */
+  font-family: "Times New Roman";
 
   > :last-child {
     margin-bottom: 0;
