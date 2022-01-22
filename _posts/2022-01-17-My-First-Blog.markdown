@@ -4,7 +4,7 @@ title:  "My First Blog"
 date:   2022-01-17 15:54:00
 subtitle: "markdown for typora"
 author: typora
-tags: markdown typora notes
+tags: [markdown, typora, notes]
 categories: [Tech, Work]
 ---
 just a test!
