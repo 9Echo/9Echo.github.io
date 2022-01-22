@@ -11,7 +11,7 @@ date: 2022-01-22
 - [x] 添加网页图片
 - [ ] 设计主页面（index.html）
 - [ ] 设计四个分页面
-  - [ ] tags页面设计：显示所有的tag，以及每个tag下对应该tag的文章（按时间排序）
+  - [ ] tags页面设计：显示所有的tag，以及每个tag下对应该tag的文章（按时间排序），格式参考[这里](http://codinfox.github.io/blog/tags/)
   - [ ] categories页面设计：同tags页面，增加选择，选择不同的categories，显示所选的post，按时间排序
   - [ ] archive页面：显示所有的post，按时间排序，最近的优先显示
   - [ ] about页面设计：自我介绍
