@@ -263,6 +263,9 @@
   @include relative-font-size(1.5);
 }
 
+/**
+ * Page content
+ */
 .post-tags {
     color: #aaa;
     font-weight: 300;
@@ -291,6 +294,16 @@
     color: #ededed;
 }
 
+.tags-sidebar {
+  width: 200px;
+  float: left;
+}
+
+.posts-mainbar {
+  margin-left: 24px;
+  float: right;
+  width: 500px;
+}
 
 /**
  * Posts
