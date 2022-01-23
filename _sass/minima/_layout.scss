@@ -131,7 +131,21 @@
   }
 }
 
-
+.site-subscribe {
+  
+  position: absolute;
+  top: 9px;
+  right: $spacing-unit / 2;
+  background-color: $background-color;
+  text-align: right;
+  
+  @media screen and (min-width: $on-medium) {
+    position: static;
+    float: left;
+    border: none;
+    background-color: inherit;
+  }
+}
 
 /**
  * Site footer
