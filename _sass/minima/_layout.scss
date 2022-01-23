@@ -15,7 +15,9 @@
   }
   
 }
-
+/**
+ * Site navigation
+ */
 .site-navigator {
   position: relative;
   float: left;
@@ -362,7 +364,15 @@
   }
 }
 
-
+/**
+ * post toc
+ */
+.toc {
+  left: 888px;
+  max-width: 309.99px;
+  position: fixed;
+  top: 76px;
+}
 
 /**
  * Pagination navbar
