@@ -11,7 +11,26 @@ title: Tags
   {% endfor %}
 </ul>
 
-{% for tag in site.tags  %}
+<section class="post-tags">
+    {% assign tags_list = site.tags %}
+    
+    {% if tags_list.first[0] == null %}
+    {% for tag in tags_list %}
+    <a class="post-tags-item" href="#{{ tag | slugify }}">{{ tag }}</a>
+    {% endfor %}
+    {% else %}
+    {% for tag in tags_list %}
+    <a class="post-tags-item" href="#{{ tag[0] | slugify }}">{{ tag[0] }}</a>
+    {% endfor %}
+    {% endif %}
+    
+    {% assign tags_list = nil %}
+
+</section>
+
+<hr>
+
+    {% for tag in site.tags  %}
     <h2 id="{{ tag[0] | slugify }}">{{ tag[0] | capitalize }}</h2>
     
     <ul>
