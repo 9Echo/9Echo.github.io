@@ -15,7 +15,9 @@
   }
   
 }
-
+/**
+ * Site navigation
+ */
 .site-navigator {
   position: relative;
   float: left;
@@ -261,6 +263,9 @@
   @include relative-font-size(1.5);
 }
 
+/**
+ * Page content
+ */
 .post-tags {
     color: #aaa;
     font-weight: 300;
@@ -274,7 +279,7 @@
 
 .post-tags-item {
     padding: 2px 6px;
-    border-radius: 3px;
+    border-radius: 0px;
     font-size: 1.1rem;
     background: #ededed;
     color: #666;
@@ -289,6 +294,18 @@
     color: #ededed;
 }
 
+.tags-sidebar {
+  display: grid;
+  position: fixed;
+  width: 130px;
+  float: left;
+}
+
+.posts-mainbar {
+  margin-left: 24px;
+  float: right;
+  width: 500px;
+}
 
 /**
  * Posts
@@ -362,7 +379,15 @@
   }
 }
 
-
+/**
+ * post toc
+ */
+.toc {
+  left: 18px;
+  max-width: 309.99px;
+  position: absolute;
+  top: 235px;
+}
 
 /**
  * Pagination navbar
