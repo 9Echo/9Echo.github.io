@@ -279,7 +279,7 @@
 
 .post-tags-item {
     padding: 2px 6px;
-    border-radius: 3px;
+    border-radius: 0px;
     font-size: 1.1rem;
     background: #ededed;
     color: #666;
@@ -295,7 +295,9 @@
 }
 
 .tags-sidebar {
-  width: 200px;
+  display: grid;
+  position: fixed;
+  width: 130px;
   float: left;
 }
 
