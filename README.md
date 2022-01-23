@@ -7,11 +7,11 @@
   - job
   - soft skills
 - Life
-  - 账单
-  - 突然就想写点什么
+  - finance
+  - thoughts
   - 
-- Book
-- Movie
+- Book&Movie
+  - notes
 - Outdoor
   - hiking
   - biking
