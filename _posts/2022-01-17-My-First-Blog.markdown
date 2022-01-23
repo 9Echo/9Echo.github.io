@@ -6,10 +6,13 @@ subtitle: "markdown for typora"
 author: typora
 tags: [markdown, typora, notes]
 categories: [Tech, Work]
+typora-root-url: ..
 ---
 just a test!
 
 中文测试！
+
+![tags页面展示](/assets/images/page-tags.png)
 
 # 这是一级标题
 
