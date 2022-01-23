@@ -1,0 +1,13 @@
+---
+layout: post
+date:   2022-01-23
+tags: [video, notes]
+categories: [movies, Personal]
+
+---
+
+# 2021 年观影笔记
+
+数据记录：
+
+- 豆瓣

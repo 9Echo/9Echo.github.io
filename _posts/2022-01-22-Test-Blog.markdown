@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  "My First Blog"
 date:   2022-01-22
 subtitle: "markdown for typora"
 author: typora
