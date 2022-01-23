@@ -23,14 +23,15 @@ layout: default
             <span class="p-author h-card" itemprop="name">{{ category }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
       {%- if page.tags -%}
         • {% for tag in page.tags %}
           <span itemprop="tag" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ tag }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
