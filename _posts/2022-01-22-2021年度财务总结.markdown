@@ -5,6 +5,7 @@ subtitle: "markdown for typora"
 author: typora
 tags: notes
 categories: [Annual, Finance]
+lang: zh
 ---
 
 ## 2021年度收支分析
