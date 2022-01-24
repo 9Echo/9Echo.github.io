@@ -8,7 +8,14 @@ layout: default
   </header>
 
   <div class="post-content">
-    {{ content }}
+    {% if page.lang %}
+      <div class="post" lang="{{page.lang}}">
+    {% else %}
+      <div class="post">
+    {% endif %}
+        {{ content }}
+      </div>
+    
   </div>
 
 </article>

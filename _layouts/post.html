@@ -38,8 +38,13 @@ layout: default
     <!--
     {% include toc.html html=content %}
     -->
-    {{ content }}
-    
+    {% if page.lang %}
+      <div class="post" lang="{{page.lang}}">
+    {% else %}
+      <div class="post">
+    {% endif %}
+        {{ content }}
+      </div>
   </div>
 
   {%- if site.disqus.shortname -%}
