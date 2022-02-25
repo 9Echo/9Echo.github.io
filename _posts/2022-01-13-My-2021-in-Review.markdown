@@ -1,6 +1,6 @@
 ---
 layout: post
-date:   2022-02-26
+date:   2022-02-20
 tags: [personal, annual]
 toc: True
 toc_label: 目录
@@ -10,7 +10,7 @@ toc_label: 目录
 
 ### 我的2021关键字
 
-
+`疫情` `旅行` `秋招` `电影` `失眠` `跑路`
 
 ### About Work
 
