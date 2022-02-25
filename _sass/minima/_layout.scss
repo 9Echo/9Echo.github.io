@@ -316,7 +316,7 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.225);
+  @include relative-font-size(2.65);
   letter-spacing: -1px;
   line-height: 1.15;
 
@@ -335,7 +335,7 @@
   h1, h2, h3, h4, h5, h6 { margin-top: $spacing-unit }
 
   h2 {
-    @include relative-font-size(1.85);
+    @include relative-font-size(2.25);
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
@@ -343,7 +343,7 @@
   }
 
   h3 {
-    @include relative-font-size(1.775);
+    @include relative-font-size(1.855);
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
@@ -351,7 +351,7 @@
   }
 
   h4 {
-    @include relative-font-size(1.6);
+    @include relative-font-size(1.65);
   }
 
   h5 {
