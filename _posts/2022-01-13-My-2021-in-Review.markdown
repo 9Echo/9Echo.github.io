@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2022-02-25
-tags: [personal, annual review]
+tags: [personal, annual]
 ---
 
 迟到的2021年度总结
