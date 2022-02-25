@@ -1,7 +1,7 @@
 ---
 layout: post
 date:   2022-01-23
-tags: [personal, 总结]
+tags: [personal, annual review]
 ---
 
 # 2022年1月份计划
