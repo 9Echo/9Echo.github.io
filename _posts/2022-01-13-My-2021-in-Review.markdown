@@ -2,13 +2,15 @@
 layout: post
 date:   2022-02-26
 tags: [personal, annual]
+toc: True
+toc_label: 目录
 ---
 
 迟到的2021年度总结。
 
 ### 我的2021关键字
 
-`疫情` `旅行` `秋招` `电影` `失眠`
+
 
 ### About Work
 
