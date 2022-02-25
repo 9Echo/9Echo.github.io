@@ -20,7 +20,7 @@ layout: default
       {%- if page.tags -%}
         • {% for tag in page.tags %}
           <span itemprop="tag" itemscope itemtype="http://schema.org/Person">
-            <a class="tag-link" href="/tags/#tag">{{ tag | escape }}</a>
+            <a class="tag-link" href="{{site.baseurl}}/tags/{{#tag}}">{{ tag | escape }}</a>
             <span class="p-author h-card" itemprop="name">{{ tag }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
