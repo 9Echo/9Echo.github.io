@@ -326,6 +326,7 @@
 }
 
 .post-content {
+  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
   margin-bottom: $spacing-unit / 6;
 
   a {
@@ -368,11 +369,11 @@
 
 /**
 * change the language for post in chinese
+*
+*.post-zh h1, h2, h3, h4, h5, h1 a, h2 a, p {
+*  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
+*}
 */
-.post-zh h1, h2, h3, h4, h5, h1 a, h2 a, p {
-  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
-}
-
 
 .social-media-list {
   display: table;
