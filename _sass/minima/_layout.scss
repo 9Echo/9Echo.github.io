@@ -326,7 +326,6 @@
 }
 
 .post-content {
-  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
   margin-bottom: $spacing-unit / 6;
 
   a {
@@ -374,6 +373,9 @@
 *  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
 *}
 */
+.post {
+  font-family: "Georgia", "Noto Serif Traditional Chinese", serif;
+}
 
 .social-media-list {
   display: table;
