@@ -91,6 +91,7 @@ ul, ol {
 }
 
 li {
+  @include relative-font-size(1.25);
   > ul,
   > ol {
     margin-bottom: 0;
@@ -144,7 +145,7 @@ blockquote {
   padding-left: $spacing-unit / 2;
   @include relative-font-size(1.125);
  /* font-style: italic;  */
-  font-family: "Times New Roman";
+ /* font-family: "Times New Roman, Noto Serif Traditional Chinese"; */
 
   > :last-child {
     margin-bottom: 0;
