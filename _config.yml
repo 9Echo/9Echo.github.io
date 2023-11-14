@@ -24,7 +24,7 @@ subtitle: 人间闲事多，读书日月少
 description: >- # this means to ignore newlines until "baseurl:"
 favicon: /assets/favicon.ico
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://qinshan.cc" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://qinshan.cc" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
 github_username:  9Echo
 
